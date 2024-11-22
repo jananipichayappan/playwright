@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+      "target": "es6",
+      "module": "commonjs",
+      "strict": true,
+      "esModuleInterop": true,
+      "moduleResolution": "node",
+      "types": ["node", "playwright"]
+    },
+    "include": ["./step_definitions/**/*.ts", "./features/**/*.ts"],
+    "exclude": ["node_modules"]
+  }
+  

@@ -1,0 +1,148 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "search-functionality-on-udacity-catalog-page;search-for-a-skill-term",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Search for a skill term",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 8611899
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1273552399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to the product page",
+            "match": {
+              "location": "step_definitions\\search.step.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13716355898
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I search for the term \"testing\"",
+            "match": {
+              "location": "step_definitions\\search.step.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10518809599
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2087291099
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "search-functionality-on-udacity-catalog-page;search-for-an-invalid-term",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Search for an invalid term",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2726600
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2795540900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "I navigate to the product page",
+            "match": {
+              "location": "step_definitions\\search.step.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11811118298
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "I search for the term \"nonexistantterm\"",
+            "match": {
+              "location": "step_definitions\\search.step.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9555262800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "I should see the error message \"No Results found\"",
+            "match": {
+              "location": "step_definitions\\search.step.ts:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5385441599
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1119623299
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "search-functionality-on-udacity-catalog-page",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Search functionality on Udacity catalog page",
+    "tags": [],
+    "uri": "features\\search.feature"
+  }
+]

@@ -1,0 +1,21 @@
+# Logs
+logs
+*.log
+
+# Dependency directories
+node_modules/
+.npm/
+
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Playwright specific
+playwright-report/
+test-results/
+
+
+# Lock files
+package-lock.json
