@@ -19,7 +19,7 @@ setDefaultTimeout(60000);
 
 // Hook that runs before each scenario
 Before(async function (scenario) {
-  logger.info(`Starting scenario: ${scenario.pickle.name}`);
+  logger.info(`${scenario.pickle.name}`);
 });
 
 // Hook that runs after each scenario
@@ -64,7 +64,7 @@ Before(async function () {
   browser = await chromium.launch({
     headless: false, // Change to true if you want headless
     executablePath: chromePath, // Use the executable path of Google Chrome
-    slowMo: 1000, // Optional: slow down actions for better visibility
+    // slowMo: 1000, // Optional: slow down actions for better visibility
   });
 
   // Create a new page for each scenario
